@@ -88,7 +88,7 @@ w_{i}=\dfrac{2}{(1-x^2_{i})[P'_{n}(x_{i})]^2}
 \quad Para a função $f(x)=cos(2x^2)$, no intervalo de [0,1] com $p=10$ (20 subintervalos para a Regra de Gauss e 10 pontos para a Quadratura de Gauss), temos:
 
 \begin{figure}[h]
-\includegraphics{images/errocos(2x^2)}
+\includegraphics{images/erro_fcos}
 \caption{Comparação de erros para $f(x)=cos(2x^2)$}
 \end{figure}
 
@@ -104,7 +104,7 @@ w_{i}=\dfrac{2}{(1-x^2_{i})[P'_{n}(x_{i})]^2}
 %1.00298*10^-9, 0, 0, 0, 0}
 
 \begin{figure}[h]
-\includegraphics{images/erroe^x^2}
+\includegraphics{images/erro_e}
 \caption{Comparação de erros para $f(x)=e^{x^{2}}$}
 \end{figure}
 
@@ -114,7 +114,7 @@ w_{i}=\dfrac{2}{(1-x^2_{i})[P'_{n}(x_{i})]^2}
 \qquad Para os mesmos parâmetros escolhidos anteriormente, mas para a função $f(x)=x^{21} + 3 x^7 + 45 x^2$ temos:
 
 \begin{figure}[h]
-\includegraphics{images/erroex^21+3x^7+45x^2}
+\includegraphics{images/erroe_poli}
 \caption{Comparação de erros para $f(x)=x^{21}+3x^7+45x^2$}
 \end{figure}
 
@@ -124,7 +124,7 @@ w_{i}=\dfrac{2}{(1-x^2_{i})[P'_{n}(x_{i})]^2}
 \qquad Para esse exemplo foi aumentado o valor de \textit{p} da Regra de Simpson afim de que ela convergisse e foi notado que para $p=416$ o valor converge, conforme mostrado abaixo. Isso mostra que para 932 subintervalos do método de Simpson o método converge para um valor com $10^{-10}$ de diferença do valor da integral exata, enquanto o método da Quadratura de Gauss converge para essa mesma difrença com 10 pontos de integração. Ainda, o método de Simpsons demorou 3.78777 segundos para convergir para o resultado, enquanto o método de Gauss levou 0.00406029 segundos.
 
 \begin{figure}[h]
-\includegraphics{images/erroex^21+3x^7+45x^2convergindo}
+\includegraphics{images/erro_poli_convergindo}
 \caption{Comparação de erros para $f(x)=x^{21}+3x^7+45x^2$ para ambos os métodos convergindo}
 \end{figure}
 
