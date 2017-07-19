@@ -31,7 +31,7 @@
 \end{equation}
 
 \begin{figure}[h]
-\includegraphics{simpsonapproximation}
+\includegraphics{images/simpsonapproximation}
 \caption{Aproximação de \textit{y=f(x)} por \textit{y=$P_{2}$(x).}}
 \end{figure}
 
@@ -47,7 +47,7 @@
 \end{equation}
 
 \begin{figure}[h]
-\includegraphics{simpsoncompositeapproximation}
+\includegraphics{images/simpsoncompositeapproximation}
 \caption{Aproximação de \textit{y=f(x)} pela soma das integrais dos subintervalos [a,b].}
 \end{figure}
 
@@ -57,7 +57,7 @@
 \qquad A Quadratura Gaussiana, assim como a regra de Simpson, é um método de aproximação numérico para integrais definidas. Contudo, para uma aproximação utilizando \textit{n} pontos de integração, o valor da integral será exato para polinômios de até $2\textit{n}-1$ ordem. O método da Quadratura Gausiana propõe abscissas ótimas para o cálculo afim de minimizar o erro, como representado na Figura 3 por $x_{1}$ e $x_{1}$, ao invés de usar os pontos das extremidades do intervalo [a,b]. Ainda, são levados em considerações os fatores denominados pesos $w_{i}$. 
 
 \begin{figure}[h]
-\includegraphics{gaussapproximation}
+\includegraphics{images/gaussapproximation}
 \caption{Escolha de abscissas ótimas para a integração de \textit{f(x)}}
 \end{figure}
 
@@ -88,7 +88,7 @@ w_{i}=\dfrac{2}{(1-x^2_{i})[P'_{n}(x_{i})]^2}
 \quad Para a função $f(x)=cos(2x^2)$, no intervalo de [0,1] com $p=10$ (20 subintervalos para a Regra de Gauss e 10 pontos para a Quadratura de Gauss), temos:
 
 \begin{figure}[h]
-\includegraphics{errocos(2x^2)}
+\includegraphics{images/errocos(2x^2)}
 \caption{Comparação de erros para $f(x)=cos(2x^2)$}
 \end{figure}
 
@@ -104,7 +104,7 @@ w_{i}=\dfrac{2}{(1-x^2_{i})[P'_{n}(x_{i})]^2}
 %1.00298*10^-9, 0, 0, 0, 0}
 
 \begin{figure}[h]
-\includegraphics{erroe^x^2}
+\includegraphics{images/erroe^x^2}
 \caption{Comparação de erros para $f(x)=e^{x^{2}}$}
 \end{figure}
 
@@ -114,7 +114,7 @@ w_{i}=\dfrac{2}{(1-x^2_{i})[P'_{n}(x_{i})]^2}
 \qquad Para os mesmos parâmetros escolhidos anteriormente, mas para a função $f(x)=x^{21} + 3 x^7 + 45 x^2$ temos:
 
 \begin{figure}[h]
-\includegraphics{erroex^21+3x^7+45x^2}
+\includegraphics{images/erroex^21+3x^7+45x^2}
 \caption{Comparação de erros para $f(x)=x^{21}+3x^7+45x^2$}
 \end{figure}
 
@@ -124,7 +124,7 @@ w_{i}=\dfrac{2}{(1-x^2_{i})[P'_{n}(x_{i})]^2}
 \qquad Para esse exemplo foi aumentado o valor de \textit{p} da Regra de Simpson afim de que ela convergisse e foi notado que para $p=416$ o valor converge, conforme mostrado abaixo. Isso mostra que para 932 subintervalos do método de Simpson o método converge para um valor com $10^{-10}$ de diferença do valor da integral exata, enquanto o método da Quadratura de Gauss converge para essa mesma difrença com 10 pontos de integração. Ainda, o método de Simpsons demorou 3.78777 segundos para convergir para o resultado, enquanto o método de Gauss levou 0.00406029 segundos.
 
 \begin{figure}[h]
-\includegraphics{erroex^21+3x^7+45x^2convergindo}
+\includegraphics{images/erroex^21+3x^7+45x^2convergindo}
 \caption{Comparação de erros para $f(x)=x^{21}+3x^7+45x^2$ para ambos os métodos convergindo}
 \end{figure}
 
