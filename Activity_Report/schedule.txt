@@ -1,8 +1,16 @@
-Prov�vel hor�rio de cumprimento das horas no LabMec:
+Provável horário de cumprimento das horas no LabMec:
 
 Segunda-feira: Entre 13h e 18h
 Quinta-feira: Entre 8h e 11h
 Sexta-feira: Entre 14h e 18h
 
-Caso em alguma semana seja necess�rio alterar os dias por conta de atividades
+Caso em alguma semana seja necessário alterar os dias por conta de atividades
 da UNICAMP, alterarei esse documento.
+
+-----------------------------------------------------------------------------
+Na semana dos dias 07/08 - 11/08 alterarei meu horário na segunda, pois um professor precisou mudar uma aula para o período da tarde.
+Os possíveis horários ficarão o seguinte:
+
+Segunda-feira: Entre 10h e 13h
+Quinta-feira: Entre 8h e 11h
+Sexta-feira: Entre 14h e 18h
