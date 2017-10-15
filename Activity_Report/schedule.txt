@@ -1,6 +1,6 @@
 Horário de cumprimento das horas no LabMec:
 
-Segunda-feira: Entre 13h e 18h
+Quarta-feira: Entre 13h e 18h
 Quinta-feira: Entre 8h e 11h
 Sexta-feira: Entre 14h e 18h
 
@@ -8,9 +8,3 @@ Caso em alguma semana seja necessário alterar os dias por conta de atividades
 da UNICAMP, alterarei esse documento.
 
 -----------------------------------------------------------------------------
-
-Por conta da Semana de Engenharia Civil que está acontecendo de 21/Agosto a 25/Agosto os horários da semana serão:
-
-Terça-feira: Entre 9h e 13h
-Quarta-feira: Entre 9h e 13h
-Quinta-feira: Entre 9h e 13h
